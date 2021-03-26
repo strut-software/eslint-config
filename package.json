@@ -1,0 +1,24 @@
+{
+  "name": "@strut-software/eslint-config",
+  "version": "0.0.1",
+  "description": "Standard set of ESLint rulesets to be used across Strut and Rithm projects.",
+  "private": true,
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:strut-software/eslint-config.git"
+  },
+  "keywords": [
+    "rithm",
+    "strut",
+    "lint",
+    "rules",
+    "eslint",
+    "config",
+    "standard",
+    "typescript",
+    "rxjs",
+    "angular"
+  ],
+  "author": "Tyler Hendrickson"
+}
