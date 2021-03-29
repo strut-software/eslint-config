@@ -1,6 +1,6 @@
 {
   "name": "@strut-software/eslint-config",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Standard set of ESLint rulesets to be used across Strut and Rithm projects.",
   "private": true,
   "scripts": {},
