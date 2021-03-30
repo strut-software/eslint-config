@@ -2,7 +2,7 @@
 
 ## Description
 
-This package contains a standard set of ESLint rules to be used across Strut Software Solutions projects and Rith Software projects. This is to ensure each project has the same set of rules to keep projects consistent.
+This package contains a standard set of ESLint rules to be used across Strut Software Solutions projects and Rithm Software projects. This is to ensure each project has the same set of rules to keep projects consistent.
 
 Lint rules exist for the following uses:
 
