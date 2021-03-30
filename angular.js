@@ -3,8 +3,8 @@ module.exports = {
     "./typescript.js",
     "./rxjs.js",
     "plugin:@angular-eslint/recommended",
-    "plugin:@angular-eslint/ng-cli-compat--formatting-add-on",
-    "plugin:@angular-eslint/template/process-inline-templates"
+    "plugin:@angular-eslint/template/process-inline-templates",
+    "plugin:@angular-eslint/ng-cli-compat--formatting-add-on"
   ],
   "plugins": [
     "rxjs-angular"
