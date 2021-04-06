@@ -12,7 +12,6 @@ module.exports = {
     "jsdoc/check-alignment": "error",
     "jsdoc/check-examples": "error",
     "jsdoc/check-indentation": "error",
-    "jsdoc/check-line-alignment": "error",
     "jsdoc/check-param-names": "error",
     "jsdoc/check-property-names": "error",
     "jsdoc/check-syntax": "error",
@@ -35,6 +34,7 @@ module.exports = {
         MethodDefinition: true,
       },
       exemptEmptyFunctions: false,
+      checkConstructors: false
     }],
     "jsdoc/require-param": "error",
     "jsdoc/require-param-description": "error",
