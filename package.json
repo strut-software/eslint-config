@@ -1,7 +1,7 @@
 {
   "name": "@strut-software/eslint-config",
   "version": "1.0.1",
-  "description": "Standard set of ESLint rulesets to be used across Strut and Rithm projects.",
+  "description": "Standard set of ESLint rulesets to be used across Strut and Rithm projects",
   "scripts": {},
   "repository": {
     "type": "git",
