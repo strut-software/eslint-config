@@ -33,6 +33,12 @@ module.exports = {
         FunctionDeclaration: true,
         MethodDefinition: true,
       },
+      contexts: [
+        {
+          context: "ClassProperty",
+          inlineCommentBlock: true
+        }
+      ],
       exemptEmptyFunctions: false,
       checkConstructors: false
     }],
