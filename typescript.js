@@ -37,7 +37,11 @@ module.exports = {
         {
           context: "ClassProperty",
           inlineCommentBlock: true
-        }
+        },
+        {
+          context: "TSPropertySignature",
+          inlineCommentBlock: true
+        },
       ],
       exemptEmptyFunctions: false,
       checkConstructors: false
