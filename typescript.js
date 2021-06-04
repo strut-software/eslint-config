@@ -63,6 +63,7 @@ module.exports = {
       "error",
       "1tbs"
     ],
+    "eqeqeq": "error",
     "lines-between-class-members": "error",
     "no-shadow": "off",
   }
