@@ -13,7 +13,6 @@ module.exports = {
     ],
     "rxjs/no-compat": "error",
     "rxjs/no-ignored-error": "error",
-    "rxjs/no-implicit-any-catch": "off",
-    "rxjs/no-subject-value": "off"
+    "rxjs/no-subject-value": "warn"
   }
 }
