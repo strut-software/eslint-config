@@ -65,7 +65,7 @@ Afterwards, you will be able to run your desired lint command to use the newly-i
 ```javascript
 "devDependencies": {
     ...
-    "@strut-software/eslint-config": "^1.0.9",
+    "@strut-software/eslint-config": "^1.1.0",
     ...
 }
 ```
