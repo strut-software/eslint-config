@@ -7,6 +7,7 @@
     "type": "git",
     "url": "git@github.com:strut-software/eslint-config.git"
   },
+  "private": false,
   "keywords": [
     "rithm",
     "strut",
