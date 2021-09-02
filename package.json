@@ -1,6 +1,6 @@
 {
   "name": "@strut-software/eslint-config",
-  "version": "1.0.9",
+  "version": "0.0.0",
   "description": "An opinionated collection of ESLint configs to be used across Strut and Rithm projects",
   "scripts": {},
   "repository": {
@@ -33,7 +33,8 @@
     "eslint-plugin-angular": "^4.0.0",
     "eslint-plugin-jsdoc": "^34.0.0",
     "eslint-plugin-rxjs": "^3.0.0",
-    "eslint-plugin-rxjs-angular": "^1.0.0"
+    "eslint-plugin-rxjs-angular": "^1.0.0",
+    "semantic-release": "^17.4.7"
   },
   "peerDependencies": {
     "@typescript-eslint/eslint-plugin": "^4.0.0",
