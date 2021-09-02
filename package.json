@@ -1,7 +1,7 @@
 {
   "name": "@strut-software/eslint-config",
   "version": "1.0.9",
-  "description": "Standard set of ESLint rulesets to be used across Strut and Rithm projects",
+  "description": "An opinionated collection of ESLint configs to be used across Strut and Rithm projects",
   "scripts": {},
   "repository": {
     "type": "git",
@@ -13,7 +13,7 @@
     "lint",
     "rules",
     "eslint",
-    "eslintconfig",
+    "eslint config",
     "config",
     "standard",
     "typescript",
@@ -21,6 +21,11 @@
     "angular"
   ],
   "author": "Tyler Hendrickson",
+  "bugs": {
+    "url": "https://github.com/strut-software/eslint-config/issues"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/strut-software/eslint-config#readme",
   "devDependencies": {
     "@typescript-eslint/eslint-plugin": "^4.0.0",
     "@typescript-eslint/parser": "^4.0.0",

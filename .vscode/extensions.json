@@ -1,0 +1,9 @@
+{
+  "recommendations": [
+    "editorconfig.editorconfig",
+    "streetsidesoftware.code-spell-checker",
+    "vivaxy.vscode-conventional-commits",
+    "docsmsft.docs-preview",
+    "davidanson.vscode-markdownlint"
+  ]
+}

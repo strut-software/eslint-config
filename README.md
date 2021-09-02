@@ -2,14 +2,20 @@
 
 ## Description
 
-This package contains a standard set of ESLint rules to be used across Strut Software Solutions projects and Rithm Software projects. This is to ensure each project has the same set of rules to keep projects consistent.
+This package contains a set of ESLint configs to be used across Strut Software Solutions projects and Rithm Software projects. This is to ensure each project has the same set of rules to keep projects consistent.
 
-Lint rules exist for the following uses:
+## Configs
 
-* TypeScript
-* Angular
-* RxJS
-* JSDoc
+Config files exist for the following use cases and are summarized below. You can mix and match these as needed and several configs inherit other configs automatically.
+
+* `javascript` - Recommended rules for projects using JavaScript.
+* `typescript` - Recommended rules for projects using TypeScript.
+  * Includes and modifies the rules from `javascript` as TypeScript is a superset of JavaScript.
+* `angular` - Recommended rules for projects using Angular.
+  * Includes and modifies the rules from `typescript` and `rxjs` as Angular uses TypeScript and RxJS by default.
+* `angular-html` - Recommended template (HTML) rules for projects using Angular.
+  * Used in conjunction with `@angular-eslint/template-parser`.
+* `rxjs` - Recommended rules for projects using the RxJS library.
 
 ## Installation
 
@@ -21,7 +27,7 @@ npm i @strut-software/eslint-config --save-dev
 
 ## Usage
 
-Once the package is installed, add the desired rulesets to the `"extends"` section of the `eslintrc.json` in the root of your project:
+Once the package is installed, add the desired configs to the `"extends"` section of the `eslintrc.json` in the root of your project:
 
 ```javascript
 {
