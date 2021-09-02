@@ -45,5 +45,8 @@
     "eslint-plugin-jsdoc": "^34.0.0",
     "eslint-plugin-rxjs": "^3.0.0",
     "eslint-plugin-rxjs-angular": "^1.0.0"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }
