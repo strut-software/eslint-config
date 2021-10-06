@@ -14,6 +14,7 @@ module.exports = {
     "eqeqeq": "error",
     "keyword-spacing": [2, { "before": true, "after": true }],
     "lines-between-class-members": "error",
+    "no-console": "error",
     "jsdoc/check-alignment": "error",
     "jsdoc/check-examples": "error",
     "jsdoc/check-indentation": "error",
