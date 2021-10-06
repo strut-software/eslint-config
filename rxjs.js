@@ -12,7 +12,6 @@ module.exports = {
       }
     ],
     "rxjs/no-compat": "error",
-    "rxjs/no-ignored-error": "error",
     "rxjs/no-subject-value": "warn"
   }
 }
