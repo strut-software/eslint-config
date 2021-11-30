@@ -16,7 +16,7 @@ module.exports = {
     "lines-between-class-members": "error",
     "no-console": "error",
     "jsdoc/check-alignment": "error",
-    "jsdoc/check-examples": "error",
+    // "jsdoc/check-examples": "error", // TODO: re-enable this once fixed https://github.com/eslint/eslint/issues/14745
     "jsdoc/check-indentation": "error",
     "jsdoc/check-param-names": "error",
     "jsdoc/check-property-names": "error",
