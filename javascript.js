@@ -14,6 +14,13 @@ module.exports = {
     "eqeqeq": "error",
     "keyword-spacing": [2, { "before": true, "after": true }],
     "lines-between-class-members": "error",
+    "max-len": ["error", {
+      "code": 140,
+      "tabWidth": 2,
+      "ignorePattern": "^\\s*import ",
+      "ignoreUrls": true,
+      "ignoreRegExpLiterals": true
+    }],
     "no-console": "error",
     "jsdoc/check-alignment": "error",
     // "jsdoc/check-examples": "error", // TODO: re-enable this once fixed https://github.com/eslint/eslint/issues/14745
