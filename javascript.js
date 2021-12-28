@@ -22,6 +22,7 @@ module.exports = {
       "ignoreRegExpLiterals": true
     }],
     "no-console": "error",
+    "semi": "error",
     "jsdoc/check-alignment": "error",
     // "jsdoc/check-examples": "error", // TODO: re-enable this once fixed https://github.com/eslint/eslint/issues/14745
     "jsdoc/check-indentation": "error",
