@@ -69,3 +69,6 @@ Afterwards, you will be able to run your desired lint command to use the newly-i
     ...
 }
 ```
+
+### Package maintenance
+Uses a token from NPM as a github secret - this secret is stored in the org level.
